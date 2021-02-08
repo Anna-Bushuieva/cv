@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <title>Contacts</title>
+</head>
+
+<body align='center'>
+  <h3>Address</h3>
+  <p>
+    Ukraine, Zaporizhzhia, 69076
+  </p>
+  <hr>
+  <h3>Phone and email</h3>
+  <p>
+    +380734535281, annabllw5@gmail.com
+  </p>
+  <hr>
+  <h3>Media</h3>
+  <p>
+    <a href="https://www.facebook.com/anna.bellew.92/">Facebook</a>
+  </p>
+  <form enctype="text/plain" action="mailto:annabllw5@gmail.com" method="post">
+    <fieldset>
+      <legend>Contact field</legend>
+      <p>Your Name</p>
+      <input type="text" name="YourName" value="" placeholder="John Marshal" autofocus>
+      <p>Your Email</p>
+      <input type="email" name="YourEmail" value="">
+      <p>Enter Your Phone number</p>
+      <input type="tel" name="YourPhone" value="" placeholder="(063)4569872" pattern="[0-9]{3}[0-9]{7}">
+      <p>Do You want me to call You back?</p>
+      <label for="yes">Yes</label>
+      <input type="radio" name="callback" value="Yes" id="yes">
+      <label for="no">No</label>
+      <input type="radio" name="callback" value="No" id="no">
+      <p>Leave Your Message</p>
+      <textarea name="YourMessage" rows="10" cols="80">
+
+      </textarea>
+      <br>
+      <input type="submit" value="send">
+    </fieldset>
+  </form>
+</body>
+
+</html>
